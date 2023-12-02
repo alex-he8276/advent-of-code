@@ -41,6 +41,18 @@ In this example, the calibration values are 29, 83, 13, 24, 42, 14, and 76. Addi
 What is the sum of all of the calibration values?
 
 ANSWER: 54076
+
+--- Comments ---
+Saw this approach on reddit solutions:
+entry = entry.replace('one', 'o1e')
+entry = entry.replace('two', 't2o')
+entry = entry.replace('three', 't3e')
+entry = entry.replace('four', 'f4r')
+entry = entry.replace('five', 'f5e')
+entry = entry.replace('six', 's6x')
+entry = entry.replace('seven', 's7n')
+entry = entry.replace('eight', 'e8t')
+entry = entry.replace('nine', 'n9e')
 '''
 
 CALIBRATION_FILE = 'calibration_doc.txt'
